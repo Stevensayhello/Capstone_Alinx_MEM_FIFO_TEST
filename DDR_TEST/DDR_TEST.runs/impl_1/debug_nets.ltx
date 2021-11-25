@@ -1,0 +1,2650 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "74999993"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "ddr4_test_inst/mem_test_m0/your_instance_name",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "1F7A18A895B5558488581FC5DB20B4BF",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/rd_burst_req",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/wr_burst_req",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 9,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/rd_burst_len",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_len[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 9,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/wr_burst_len",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_len[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 23,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_addr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 23,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_addr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/rd_burst_data_valid",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/wr_burst_data_req",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 8,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 63,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/rd_burst_data",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[63]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[62]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[61]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[60]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[59]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[58]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[57]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[56]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[55]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[54]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[53]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[52]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[51]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[50]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[49]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[48]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[47]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[46]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[45]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[44]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[43]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[42]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[41]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[40]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[39]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[38]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[37]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[36]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[35]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[34]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[33]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[32]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[31]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[30]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[29]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[28]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[27]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[26]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[25]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[24]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/rd_burst_data[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 9,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 63,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/wr_burst_data",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[63]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[62]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[61]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[60]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[59]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[58]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[57]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[56]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[55]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[54]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[53]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[52]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[51]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[50]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[49]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[48]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[47]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[46]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[45]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[44]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[43]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[42]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[41]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[40]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[39]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[38]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[37]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[36]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[35]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[34]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[33]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[32]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[31]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[30]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[29]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[28]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[27]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[26]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[25]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[24]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/mem_test_m0/wr_burst_data[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/rd_burst_finish",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe11",
+                                "id": 11,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/wr_burst_finish",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe12",
+                                "id": 12,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/mem_test_m0/error",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "ddr4_test_inst/u_aq_axi_master/your_instance_name",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 1,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "09C520CB831E5460B2AC3487AE9B139A",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 13,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/WR_START",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 14,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[31]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[30]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[29]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[28]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[27]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[26]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[25]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[24]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_ADRS[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 15,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[31]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[30]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[29]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[28]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[27]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[26]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[25]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[24]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_LEN[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 16,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/WR_READY",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 17,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_RE",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 18,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_EMPTY",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 19,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_AEMPTY",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 20,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 63,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[63]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[62]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[61]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[60]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[59]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[58]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[57]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[56]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[55]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[54]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[53]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[52]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[51]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[50]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[49]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[48]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[47]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[46]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[45]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[44]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[43]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[42]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[41]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[40]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[39]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[38]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[37]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[36]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[35]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[34]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[33]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[32]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[31]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[30]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[29]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[28]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[27]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[26]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[25]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[24]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 21,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/WR_DONE",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 22,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/RD_START",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 23,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[31]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[30]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[29]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[28]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[27]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[26]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[25]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[24]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_ADRS[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe11",
+                                "id": 24,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[31]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[30]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[29]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[28]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[27]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[26]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[25]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[24]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/RD_LEN[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe12",
+                                "id": 25,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/RD_READY",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe13",
+                                "id": 26,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 13,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RVALID",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe14",
+                                "id": 27,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 14,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/RD_FIFO_FULL",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe15",
+                                "id": 28,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 15,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/RD_FIFO_AFULL",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe16",
+                                "id": 29,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 63,
+                                "portIndex": 16,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[63]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[62]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[61]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[60]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[59]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[58]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[57]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[56]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[55]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[54]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[53]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[52]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[51]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[50]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[49]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[48]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[47]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[46]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[45]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[44]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[43]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[42]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[41]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[40]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[39]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[38]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[37]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[36]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[35]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[34]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[33]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[32]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[31]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[30]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[29]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[28]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[27]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[26]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[25]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[24]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe17",
+                                "id": 30,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 17,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/RD_DONE",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe18",
+                                "id": 31,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 18,
+                                "nets": [
+                                    {
+                                        "name": "ddr4_test_inst/u_aq_axi_master/DEBUG",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[31]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[30]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[29]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[28]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[27]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[26]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[25]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[24]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[23]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[22]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[21]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[20]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[19]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[18]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[17]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[16]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[15]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[14]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[13]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[12]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[11]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[10]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[9]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[8]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[7]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[6]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[5]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[4]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[3]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[2]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[1]"
+                                            },
+                                            {
+                                                "name": "ddr4_test_inst/u_aq_axi_master/DEBUG[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XSDBS_V2",
+                        "name": "ddr4_test_inst/your_instance_name",
+                        "spec": "labtools_xsdbslavelib_v2",
+                        "ipName": "DDR4_SDRAM",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 2,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "3DE2267494A354639F50A2A6F048C1C5"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "fifo_test_inst/ila_fifo",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 3,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "BB25F48696B55D8BA90DC1CBB011E4E2",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 32,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 63,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "fifo_test_inst/w_data",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "fifo_test_inst/w_data[63]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[62]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[61]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[60]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[59]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[58]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[57]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[56]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[55]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[54]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[53]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[52]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[51]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[50]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[49]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[48]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[47]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[46]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[45]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[44]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[43]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[42]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[41]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[40]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[39]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[38]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[37]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[36]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[35]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[34]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[33]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[32]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[31]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[30]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[29]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[28]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[27]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[26]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[25]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[24]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[23]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[22]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[21]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[20]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[19]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[18]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[17]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[16]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[15]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[14]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[13]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[12]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[11]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[10]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[9]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[8]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[7]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[6]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[5]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[4]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[3]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[2]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[1]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/w_data[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 33,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "fifo_test_inst/wr_en",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 34,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 63,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "fifo_test_inst/r_data",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "fifo_test_inst/r_data[63]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[62]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[61]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[60]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[59]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[58]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[57]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[56]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[55]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[54]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[53]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[52]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[51]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[50]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[49]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[48]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[47]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[46]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[45]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[44]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[43]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[42]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[41]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[40]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[39]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[38]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[37]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[36]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[35]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[34]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[33]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[32]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[31]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[30]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[29]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[28]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[27]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[26]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[25]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[24]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[23]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[22]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[21]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[20]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[19]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[18]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[17]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[16]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[15]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[14]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[13]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[12]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[11]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[10]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[9]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[8]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[7]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[6]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[5]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[4]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[3]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[2]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[1]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/r_data[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 35,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "fifo_test_inst/rd_en",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 36,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "fifo_test_inst/full",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 37,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "fifo_test_inst/empty",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 38,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 10,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "fifo_test_inst/rd_data_count",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[10]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[9]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[8]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[7]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[6]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[5]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[4]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[3]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[2]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[1]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/rd_data_count[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 39,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 10,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "fifo_test_inst/wr_data_count",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[10]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[9]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[8]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[7]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[6]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[5]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[4]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[3]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[2]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[1]"
+                                            },
+                                            {
+                                                "name": "fifo_test_inst/wr_data_count[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

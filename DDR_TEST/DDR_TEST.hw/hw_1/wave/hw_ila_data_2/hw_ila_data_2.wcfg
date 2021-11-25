@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Steven Su/Desktop/DDR_TEST/DDR_TEST.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <Cursor1Time time="70000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="372"></NameColumnWidth>
+      <ValueColumnWidth column_width="171"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/DEBUG" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/DEBUG[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEBUG[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/M_AXI_RDATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_RDATA[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/M_AXI_RVALID" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/M_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_RVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/RD_ADRS" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/RD_ADRS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_ADRS[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/RD_DONE" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/RD_DONE</obj_property>
+      <obj_property name="ObjectShortName">RD_DONE</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/RD_FIFO_AFULL" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/RD_FIFO_AFULL</obj_property>
+      <obj_property name="ObjectShortName">RD_FIFO_AFULL</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/RD_FIFO_FULL" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/RD_FIFO_FULL</obj_property>
+      <obj_property name="ObjectShortName">RD_FIFO_FULL</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/RD_LEN" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/RD_LEN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_LEN[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/RD_READY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/RD_READY</obj_property>
+      <obj_property name="ObjectShortName">RD_READY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/RD_START" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/RD_START</obj_property>
+      <obj_property name="ObjectShortName">RD_START</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/WR_ADRS" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/WR_ADRS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_ADRS[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/WR_DONE" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/WR_DONE</obj_property>
+      <obj_property name="ObjectShortName">WR_DONE</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/WR_FIFO_AEMPTY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/WR_FIFO_AEMPTY</obj_property>
+      <obj_property name="ObjectShortName">WR_FIFO_AEMPTY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/WR_FIFO_DATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_FIFO_DATA[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/WR_FIFO_EMPTY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/WR_FIFO_EMPTY</obj_property>
+      <obj_property name="ObjectShortName">WR_FIFO_EMPTY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/WR_FIFO_RE" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/WR_FIFO_RE</obj_property>
+      <obj_property name="ObjectShortName">WR_FIFO_RE</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/WR_LEN" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/WR_LEN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_LEN[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/WR_READY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/WR_READY</obj_property>
+      <obj_property name="ObjectShortName">WR_READY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr4_test_inst/u_aq_axi_master/WR_START" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/u_aq_axi_master/WR_START</obj_property>
+      <obj_property name="ObjectShortName">WR_START</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
