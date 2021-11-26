@@ -1,0 +1,1276 @@
+
+*** Running vivado
+    with args -log top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: link_design -top top -part xcku040-ffva1156-2-i
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ddr4_0.dcp' for cell 'ddr4_test_inst/your_instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_3.dcp' for cell 'ddr4_test_inst/nolabel_line268/mem_new_test_scope'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_1.dcp' for cell 'ddr4_test_inst/u_aq_axi_master/your_instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'fifo_test_inst/fifo_ip_inst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_2.dcp' for cell 'fifo_test_inst/ila_fifo'
+INFO: [Netlist 29-17] Analyzing 1787 Unisim elements for replacement
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[0]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[10]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[11]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[12]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[13]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[14]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[15]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[16]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[17]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[18]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[19]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[1]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[20]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[21]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[22]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[23]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[24]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[25]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[26]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[27]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[28]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[29]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[2]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[30]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[31]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[3]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[4]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[5]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[6]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[7]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[8]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_ADRS_reg[9]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:45]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[0]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[10]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[11]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[12]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[13]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[14]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[15]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[16]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[17]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[18]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[19]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[1]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[20]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[21]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[22]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[23]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[24]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[25]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[26]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[27]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[28]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[29]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[2]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[30]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[31]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[3]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[4]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[5]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[6]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[7]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[8]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_LEN_reg[9]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:46]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/RD_START_reg' of type 'FDCP' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:44]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[0]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[10]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[11]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[12]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[13]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[14]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[15]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[16]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[17]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[18]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[19]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[1]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[20]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[21]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[22]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[23]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[24]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[25]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[26]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[27]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[28]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[29]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[2]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[30]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[31]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[3]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[4]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[5]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[6]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[7]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[8]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_ADRS_reg[9]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:40]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_FIFO_DATA_reg[0]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:42]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_FIFO_DATA_reg[10]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:42]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+CRITICAL WARNING: [Netlist 29-358] Reg 'ddr4_test_inst/nolabel_line268/WR_FIFO_DATA_reg[11]' of type 'FDCPE' cannot be timed accurately. Hardware behavior may be unpredictable. Use check_timing command for more information. [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv:42]
+Resolution: Recode your design, so that you do not depend on both asynchronous set and reset for your desired functionality.
+Convert at least one of them to synchronous signal, or get rid of at least one of those.
+Often, the use of "initial" value will help you get rid of one of the asynchronous set/reset signals.
+INFO: [Common 17-14] Message 'Netlist 29-358' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xcku040-ffva1156-2-i
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ddr4_test_inst/nolabel_line268/mem_new_test_scope UUID: c5cccf95-f57d-556c-b1f0-b9a957554fb1 
+INFO: [Chipscope 16-324] Core: ddr4_test_inst/u_aq_axi_master/your_instance_name UUID: 09c520cb-831e-5460-b2ac-3487ae9b139a 
+INFO: [Chipscope 16-324] Core: ddr4_test_inst/your_instance_name UUID: 3de22674-94a3-5463-9f50-a2a6f048c1c5 
+INFO: [Chipscope 16-324] Core: fifo_test_inst/ila_fifo UUID: bb25f486-96b5-5d8b-a90d-c1cbb011e4e2 
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc] for cell 'ddr4_test_inst/u_aq_axi_master/your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc] for cell 'ddr4_test_inst/u_aq_axi_master/your_instance_name/inst'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila.xdc] for cell 'ddr4_test_inst/u_aq_axi_master/your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila.xdc] for cell 'ddr4_test_inst/u_aq_axi_master/your_instance_name/inst'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ddr4_0_board.xdc] for cell 'ddr4_test_inst/your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ddr4_0_board.xdc] for cell 'ddr4_test_inst/your_instance_name/inst'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/par/ddr4_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/par/ddr4_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ip_0/ddr4_0_microblaze_mcs_board.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ip_0/ddr4_0_microblaze_mcs_board.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_0/bd_9054_microblaze_I_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/microblaze_I/U0'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_0/bd_9054_microblaze_I_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/microblaze_I/U0'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_1/bd_9054_rst_0_0_board.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/rst_0/U0'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_1/bd_9054_rst_0_0_board.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/rst_0/U0'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_1/bd_9054_rst_0_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/rst_0/U0'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_1/bd_9054_rst_0_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/rst_0/U0'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_2/bd_9054_ilmb_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/ilmb/U0'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_2/bd_9054_ilmb_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/ilmb/U0'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_3/bd_9054_dlmb_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/dlmb/U0'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_3/bd_9054_dlmb_0.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/dlmb/U0'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_10/bd_9054_iomodule_0_0_board.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/iomodule_0/U0'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_10/bd_9054_iomodule_0_0_board.xdc] for cell 'ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/mcs0/inst/iomodule_0/U0'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'fifo_test_inst/fifo_ip_inst/U0'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'fifo_test_inst/fifo_ip_inst/U0'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila_impl.xdc] for cell 'fifo_test_inst/ila_fifo/inst'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila_impl.xdc] for cell 'fifo_test_inst/ila_fifo/inst'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila.xdc] for cell 'fifo_test_inst/ila_fifo/inst'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila.xdc] for cell 'fifo_test_inst/ila_fifo/inst'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila_impl.xdc] for cell 'ddr4_test_inst/nolabel_line268/mem_new_test_scope/inst'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila_impl.xdc] for cell 'ddr4_test_inst/nolabel_line268/mem_new_test_scope/inst'
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila.xdc] for cell 'ddr4_test_inst/nolabel_line268/mem_new_test_scope/inst'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila.xdc] for cell 'ddr4_test_inst/nolabel_line268/mem_new_test_scope/inst'
+Parsing XDC File [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc]
+Finished Parsing XDC File [C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc]
+Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'fifo_test_inst/fifo_ip_inst/U0'
+Finished Parsing XDC File [c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'fifo_test_inst/fifo_ip_inst/U0'
+Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst' of design 'design_1' [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst' of design 'design_1' [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+Finished Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr' of design 'design_1' [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd' of design 'design_1' [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+WARNING: [XPM_CDC_SINGLE: TCL-1000] The source and destination clocks are the same. 
+     Instance: fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl:5]
+Finished Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [E:/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+Generating merged BMM file for the design top 'top'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/sw/calibration_0/Debug/calibration_ddr.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1536.363 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1079 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 532 instances
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 3 instances
+  FDCP => FDCP (FDCE, FDPE, LUT3, LDCE, VCC): 2 instances
+  FDCPE => FDCPE (FDCE, FDPE, LUT3, LDCE, VCC): 192 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instances
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+  IOBUFDS => IOBUFDS (DIFFINBUF, IBUFCTRL, INV, OBUFT, OBUFT): 8 instances
+  IOBUFE3 => IOBUFE3 (IBUFCTRL, INBUF, OBUFT_DCIEN): 72 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 63 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUF, OBUF): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 204 instances
+
+26 Infos, 4 Warnings, 100 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 1536.363 ; gain = 1109.984
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku040'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku040'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1536.363 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1199bb5ab
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1536.363 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize MIG Cores
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1610.164 ; gain = 0.203
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1614.414 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1666.570 ; gain = 0.000
+Phase 1 Generate And Synthesize MIG Cores | Checksum: 20f17e24c
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:57 . Memory (MB): peak = 1666.570 ; gain = 56.727
+
+Phase 2 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1683.188 ; gain = 0.000
+Phase 2 Generate And Synthesize Debug Cores | Checksum: 1e368e06b
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:01:50 . Memory (MB): peak = 1683.188 ; gain = 73.344
+
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 13 inverter(s) to 1210 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 21ffe1df8
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:01:53 . Memory (MB): peak = 1691.922 ; gain = 82.078
+INFO: [Opt 31-389] Phase Retarget created 1170 cells and removed 1323 cells
+INFO: [Opt 31-1021] In phase Retarget, 697 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 4 load pin(s).
+Phase 4 Constant propagation | Checksum: 28136ea88
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:01:53 . Memory (MB): peak = 1691.922 ; gain = 82.078
+INFO: [Opt 31-389] Phase Constant propagation created 106 cells and removed 686 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 640 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 21e480a5b
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:02:00 . Memory (MB): peak = 1691.922 ; gain = 82.078
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 3945 cells
+INFO: [Opt 31-1021] In phase Sweep, 3811 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG ddr4_test_inst/your_instance_name/inst/u_ddr4_infrastructure/mmcm_clkout0_BUFG_inst to drive 0 load(s) on clock net ddr4_test_inst/your_instance_name/inst/u_ddr4_infrastructure/mmcm_clkout0_BUFGCE
+INFO: [Opt 31-194] Inserted BUFG ddr4_test_inst/your_instance_name/inst/u_ddr4_infrastructure/mmcm_clkout5_BUFG_inst to drive 0 load(s) on clock net ddr4_test_inst/your_instance_name/inst/u_ddr4_infrastructure/mmcm_clkout5_BUFGCE
+INFO: [Opt 31-194] Inserted BUFG ddr4_test_inst/your_instance_name/inst/u_ddr4_infrastructure/mmcm_clkout6_BUFG_inst to drive 0 load(s) on clock net ddr4_test_inst/your_instance_name/inst/u_ddr4_infrastructure/mmcm_clkout6_BUFGCE
+INFO: [Opt 31-193] Inserted 3 BUFG(s) on clock nets
+INFO: [Opt 31-274] Optimized connectivity to 1 cascaded buffer cells
+Phase 6 BUFG optimization | Checksum: 280b53875
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:02:01 . Memory (MB): peak = 1691.922 ; gain = 82.078
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 1 cells.
+
+Phase 7 Shift Register Optimization
+Phase 7 Shift Register Optimization | Checksum: 1c270ceea
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:02:04 . Memory (MB): peak = 1691.922 ; gain = 82.078
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 1d932bdf4
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:02:05 . Memory (MB): peak = 1691.922 ; gain = 82.078
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 1 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 182 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |            1170  |            1323  |                                            697  |
+|  Constant propagation         |             106  |             686  |                                            640  |
+|  Sweep                        |               0  |            3945  |                                           3811  |
+|  BUFG optimization            |               0  |               1  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               1  |                                            182  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.091 . Memory (MB): peak = 1691.922 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 19f1d75a6
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:02:05 . Memory (MB): peak = 1691.922 ; gain = 82.078
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.123 | TNS=0.000 |
+INFO: [Power 33-23] Power model is not available for xiphy_riu_or
+INFO: [Power 33-23] Power model is not available for genVref.u_hpio_vref
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 77 BRAM(s) out of a total of 103 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-201] Structural ODC has moved 4 WE to EN ports
+Number of BRAM Ports augmented: 73 newly gated: 4 Total Ports: 206
+Ending PowerOpt Patch Enables Task | Checksum: 17568598f
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 17568598f
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:35 . Memory (MB): peak = 3620.656 ; gain = 1928.734
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 17568598f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 15a83f911
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+70 Infos, 19 Warnings, 100 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:40 ; elapsed = 00:02:46 . Memory (MB): peak = 3620.656 ; gain = 2084.293
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.113 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.019 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+Command: report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku040'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku040'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 145acf410
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1e526d7cf
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1738fb73e
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1738fb73e
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1738fb73e
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 15a34ee92
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-76] Pass 1. Identified 3 candidate nets for fanout optimization.
+INFO: [Physopt 32-81] Processed net ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_ui/u_ddr_ui_wr_data/app_wdf_rdy_r. Replicated 9 times.
+INFO: [Physopt 32-81] Processed net ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/u_ddr_cal_addr_decode/u_ddr_cal_cplx/cplx_cal. Replicated 6 times.
+INFO: [Physopt 32-81] Processed net ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_ui/u_ddr_ui_wr_data/app_wdf_rdy_r_copy2. Replicated 6 times.
+INFO: [Physopt 32-232] Optimized 3 nets. Created 21 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 3 nets or cells. Created 21 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-666] Processed cell ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/DDR_XSDB_BRAM/mem_inst/gen_mem[0].inst/mem_reg_bram_0. No change.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Physopt 32-949] No candidate nets found for HD net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+----------------------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout              |           21  |              0  |                     3  |           0  |           1  |  00:00:01  |
+|  DSP Register                  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  HD Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                         |           21  |              0  |                     3  |           0  |           5  |  00:00:01  |
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: 1d1dc5827
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:56 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 2 Global Placement | Checksum: c8987b53
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:57 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: c8987b53
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:58 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 121fd8b20
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:01 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: e7afc2b9
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:01 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 15fa90881
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:01 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.5 IO Cut Optimizer
+Phase 3.5 IO Cut Optimizer | Checksum: 1d6151768
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:02 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 1983fe28e
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:05 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.7 Small Shape Clustering
+Phase 3.7 Small Shape Clustering | Checksum: 16af80f84
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:08 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.8 DP Optimization
+Phase 3.8 DP Optimization | Checksum: 1af18c41c
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:16 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.9 Flow Legalize Slice Clusters
+Phase 3.9 Flow Legalize Slice Clusters | Checksum: 14846e1f4
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:16 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.10 Slice Area Swap
+Phase 3.10 Slice Area Swap | Checksum: de6066b9
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:20 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.11 Commit Slice Clusters
+Phase 3.11 Commit Slice Clusters | Checksum: 13bbc8494
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:24 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.12 Re-assign LUT pins
+Phase 3.12 Re-assign LUT pins | Checksum: 197b37f26
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:26 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.13 Pipeline Register Optimization
+Phase 3.13 Pipeline Register Optimization | Checksum: 1e55ea775
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:01:27 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3.14 Fast Optimization
+Phase 3.14 Fast Optimization | Checksum: 1363c2c30
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:01:37 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1363c2c30
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:01:37 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1259ce8bc
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-46] BUFG insertion identified 0 candidate nets, 0 success, 0 bufg driver replicated, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1259ce8bc
+
+Time (s): cpu = 00:02:34 ; elapsed = 00:01:50 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.147. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1d8ac7702
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:02:06 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1d8ac7702
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:02:06 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1d8ac7702
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:02:06 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 2bfb0c604
+
+Time (s): cpu = 00:02:51 ; elapsed = 00:02:08 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 2eaff1c60
+
+Time (s): cpu = 00:02:52 ; elapsed = 00:02:08 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2eaff1c60
+
+Time (s): cpu = 00:02:52 ; elapsed = 00:02:08 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Ending Placer Task | Checksum: 22c20de72
+
+Time (s): cpu = 00:02:52 ; elapsed = 00:02:08 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+104 Infos, 19 Warnings, 100 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:58 ; elapsed = 00:02:12 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file top_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_placed.rpt -pb top_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file top_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.131 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku040'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku040'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 5011869c ConstDB: 0 ShapeSum: f50b08d4 RouteDB: e7044f02
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 149781754
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:25 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 4f65eb79 NumContArr: ba4be03a Constraints: ff578790 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 209095343
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:25 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 209095343
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:25 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 209095343
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:25 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: 1a5728a83
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:27 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 266319a7c
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:36 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.276  | TNS=0.000  | WHS=-0.334 | THS=-6.702 |
+
+
+Phase 2.6 Update Timing for Bus Skew
+
+Phase 2.6.1 Update Timing
+Phase 2.6.1 Update Timing | Checksum: 219dc61ad
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:49 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.276  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.6 Update Timing for Bus Skew | Checksum: 264747022
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:49 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 2 Router Initialization | Checksum: 26a673339
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:50 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 287ddab84
+
+Time (s): cpu = 00:02:10 ; elapsed = 00:01:16 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 7775
+ Number of Nodes with overlaps = 593
+ Number of Nodes with overlaps = 67
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.037  | TNS=0.000  | WHS=-0.021 | THS=-0.021 |
+
+Phase 4.1 Global Iteration 0 | Checksum: 274450d37
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:02 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 4.2 Additional Iteration for Hold
+Phase 4.2 Additional Iteration for Hold | Checksum: 2f59f7025
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:02 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 2f59f7025
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:02 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 28a3558b9
+
+Time (s): cpu = 00:05:17 ; elapsed = 00:03:07 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.037  | TNS=0.000  | WHS=0.004  | THS=0.000  |
+
+Phase 5.1 Delay CleanUp | Checksum: 2a9b59ac4
+
+Time (s): cpu = 00:05:17 ; elapsed = 00:03:07 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 2a9b59ac4
+
+Time (s): cpu = 00:05:17 ; elapsed = 00:03:07 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 2a9b59ac4
+
+Time (s): cpu = 00:05:17 ; elapsed = 00:03:07 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 2824465e2
+
+Time (s): cpu = 00:05:25 ; elapsed = 00:03:12 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.037  | TNS=0.000  | WHS=0.004  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 2b3c1b19d
+
+Time (s): cpu = 00:05:25 ; elapsed = 00:03:12 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 2b3c1b19d
+
+Time (s): cpu = 00:05:25 ; elapsed = 00:03:12 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.95594 %
+  Global Horizontal Routing Utilization  = 1.92862 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 2e23f3b55
+
+Time (s): cpu = 00:05:28 ; elapsed = 00:03:15 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2e23f3b55
+
+Time (s): cpu = 00:05:29 ; elapsed = 00:03:15 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 2e23f3b55
+
+Time (s): cpu = 00:05:31 ; elapsed = 00:03:18 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.037  | TNS=0.000  | WHS=0.004  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 2e23f3b55
+
+Time (s): cpu = 00:05:32 ; elapsed = 00:03:19 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:05:32 ; elapsed = 00:03:19 . Memory (MB): peak = 3620.656 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+123 Infos, 19 Warnings, 100 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:05:37 ; elapsed = 00:03:22 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 3620.656 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:04 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+Command: report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+Command: report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:33 ; elapsed = 00:00:20 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+Command: report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+135 Infos, 20 Warnings, 100 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:25 ; elapsed = 00:00:14 . Memory (MB): peak = 3620.656 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_route_status -file top_route_status.rpt -pb top_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file top_timing_summary_routed.rpt -pb top_timing_summary_routed.pb -rpx top_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+WARNING: [Timing 38-453] Line(s) in the report have been truncated to keep line length below 5000 characters.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file top_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file top_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file top_bus_skew_routed.rpt -pb top_bus_skew_routed.pb -rpx top_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: write_bitstream -force top.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xcku040'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku040'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[0]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[0]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[0]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[10]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[10]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[10]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[11]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[11]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[11]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[12]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[12]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[12]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[13]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[13]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[13]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[14]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[14]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[14]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[15]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[15]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[15]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[16]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[16]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[16]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[17]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[17]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[17]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[18]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[18]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[18]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[19]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[19]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[19]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[1]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[1]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[1]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[20]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[20]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[20]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[21]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[21]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[21]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[22]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[22]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[22]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[23]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[23]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[23]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[24]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[24]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[24]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[25]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[25]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[25]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[26]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[26]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[26]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[27]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[27]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[27]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[28]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[28]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[28]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[29]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[29]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[29]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[2]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[2]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[2]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[30]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[30]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[30]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[31]_i_4_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[31]_i_4/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[31]_i_4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[3]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[3]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[3]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[4]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[4]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[4]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[5]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[5]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[5]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[6]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[6]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[6]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[7]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[7]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[7]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[8]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[8]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[8]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_ADRS[9]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_ADRS[9]_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_ADRS[9]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[0]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[0]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[0]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[10]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[10]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[10]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[11]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[11]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[11]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[12]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[12]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[12]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[13]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[13]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[13]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[14]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[14]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[14]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[15]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[15]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[15]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[16]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[16]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[16]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[17]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[17]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[17]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[18]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[18]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[18]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[19]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[19]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[19]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[1]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[1]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[20]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[20]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[20]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[21]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[21]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[21]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[22]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[22]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[22]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[23]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[23]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[23]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[24]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[24]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[24]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[25]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[25]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[25]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[26]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[26]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[26]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[27]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[27]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[27]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[28]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[28]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[28]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[29]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[29]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[29]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[2]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[2]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[2]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[30]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[30]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[30]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[31]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[31]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[31]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[3]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[3]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[4]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[4]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[4]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[5]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[5]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[5]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[6]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[6]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[6]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[7]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[7]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[7]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[8]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[8]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[8]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_LEN[9]_i_2_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_LEN[9]_i_2/O, cell ddr4_test_inst/nolabel_line268/RD_LEN[9]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/RD_START_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/RD_START_i_3/O, cell ddr4_test_inst/nolabel_line268/RD_START_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[0]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[0]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[0]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[10]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[10]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[10]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[11]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[11]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[11]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[12]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[12]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[12]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[13]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[13]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[13]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[14]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[14]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[14]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[15]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[15]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[15]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[16]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[16]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[16]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[17]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[17]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[17]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[18]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[18]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[18]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[19]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[19]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[19]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[1]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[1]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[1]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[20]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[20]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[20]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[21]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[21]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[21]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[22]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[22]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[22]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[23]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[23]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[23]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[24]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[24]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[24]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[25]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[25]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[25]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[26]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[26]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[26]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[27]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[27]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[27]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[28]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[28]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[28]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[29]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[29]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[29]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[2]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[2]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[2]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[30]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[30]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[30]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[31]_i_4_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[31]_i_4/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[31]_i_4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[3]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[3]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[3]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[4]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[4]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[4]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[5]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[5]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[5]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[6]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[6]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[6]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[7]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[7]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[7]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[8]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[8]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[8]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_ADRS[9]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_ADRS[9]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_ADRS[9]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[0]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[0]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[0]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[10]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[10]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[10]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[11]_i_3_n_0 is a gated clock net sourced by a combinational pin ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[11]_i_3/O, cell ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[11]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+INFO: [Common 17-14] Message 'DRC PDRC-153' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [DRC RTSTAT-10] No routable loads: 143 net(s) have no routable loads. The problem bus(es) and/or net(s) are fifo_test_inst/fifo_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/ENA_dly_D, ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/LMB_CE_riu, ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_riu/LMB_UE_riu, ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/u_xsdb_arbiter/Q[12], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/u_xsdb_arbiter/Q[13], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/u_xsdb_arbiter/Q[14], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_ddr_cal_top/u_ddr_cal/u_xsdb_arbiter/Q[15], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_phy2clb_phy_rdy_low/SYNC[0].sync_reg[1], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_phy2clb_fixdly_rdy_low/SYNC[0].sync_reg[1], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_phy2clb_fixdly_rdy_upp/SYNC[0].sync_reg[1], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_phy2clb_phy_rdy_upp/SYNC[0].sync_reg[1], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_phy2clb_fixdly_rdy_low/SYNC[1].sync_reg[1], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_phy2clb_fixdly_rdy_upp/SYNC[1].sync_reg[1], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_phy2clb_phy_rdy_low/SYNC[1].sync_reg[1], ddr4_test_inst/your_instance_name/inst/u_ddr4_mem_intfc/u_phy2clb_phy_rdy_upp/SYNC[1].sync_reg[1]... and (the first 15 of 141 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 195 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Generating merged BMM file for the design top 'top'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/sw/calibration_0/Debug/calibration_ddr.elf 
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Bitstream compression saved 86687872 bits.
+Writing bitstream ./top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+Access is denied.
+Access is denied.
+INFO: [Common 17-83] Releasing license: Implementation
+156 Infos, 123 Warnings, 100 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:46 ; elapsed = 00:00:40 . Memory (MB): peak = 3666.965 ; gain = 46.309
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 25 21:19:49 2021...

@@ -84,4 +84,22 @@ always @(posedge mem_clk or posedge rst) begin
 
 end
 
+ila_3 mem_new_test_scope(
+    .clk(mem_clk),
+    .probe0(WR_START),
+    .probe1(WR_ADRS),
+    .probe2(WR_LEN),
+    .probe3(WR_FIFO_DATA),
+    .probe4(RD_START),
+    .probe5(RD_ADRS),
+    .probe6(RD_LEN),
+    .probe7(RD_FIFO_DATA),
+    .probe8(state),
+    .probe9(WR_DONE),
+    .probe10(RD_DONE)
+);
+
+
+
+
 endmodule
