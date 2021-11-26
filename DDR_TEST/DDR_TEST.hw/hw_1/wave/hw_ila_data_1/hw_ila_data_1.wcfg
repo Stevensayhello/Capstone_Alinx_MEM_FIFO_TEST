@@ -3,7 +3,7 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="C:/Users/Steven Su/Desktop/DDR_TEST/DDR_TEST.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+      <db_ref path="/media/psf/Home/Documents/Vivado_Project/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
          <top_modules>
          </top_modules>
       </db_ref>
@@ -15,19 +15,19 @@
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="372"></NameColumnWidth>
-      <ValueColumnWidth column_width="171"></ValueColumnWidth>
+      <ValueColumnWidth column_width="167"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="13" />
+   <WVObjectSize size="14" />
    <wave_markers>
    </wave_markers>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/error" type="logic">
+   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/error">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/error</obj_property>
       <obj_property name="ObjectShortName">error</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/rd_burst_addr" type="array">
+   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_addr">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_addr[23:0]</obj_property>
       <obj_property name="ObjectShortName">rd_burst_addr[23:0]</obj_property>
@@ -35,7 +35,7 @@
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/rd_burst_data" type="array">
+   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_data">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_data[63:0]</obj_property>
       <obj_property name="ObjectShortName">rd_burst_data[63:0]</obj_property>
@@ -43,21 +43,21 @@
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/rd_burst_data_valid" type="logic">
+   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_data_valid">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_data_valid</obj_property>
       <obj_property name="ObjectShortName">rd_burst_data_valid</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/rd_burst_finish" type="logic">
+   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_finish">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_finish</obj_property>
       <obj_property name="ObjectShortName">rd_burst_finish</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/rd_burst_len" type="array">
+   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_len">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_len[9:0]</obj_property>
       <obj_property name="ObjectShortName">rd_burst_len[9:0]</obj_property>
@@ -65,14 +65,14 @@
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/rd_burst_req" type="logic">
+   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_req">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_req</obj_property>
       <obj_property name="ObjectShortName">rd_burst_req</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/wr_burst_addr" type="array">
+   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_addr">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_addr[23:0]</obj_property>
       <obj_property name="ObjectShortName">wr_burst_addr[23:0]</obj_property>
@@ -80,7 +80,7 @@
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/wr_burst_data" type="array">
+   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_data">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_data[63:0]</obj_property>
       <obj_property name="ObjectShortName">wr_burst_data[63:0]</obj_property>
@@ -88,21 +88,21 @@
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/wr_burst_data_req" type="logic">
+   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_data_req">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_data_req</obj_property>
       <obj_property name="ObjectShortName">wr_burst_data_req</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/wr_burst_finish" type="logic">
+   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_finish">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_finish</obj_property>
       <obj_property name="ObjectShortName">wr_burst_finish</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/wr_burst_len" type="array">
+   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_len">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_len[9:0]</obj_property>
       <obj_property name="ObjectShortName">wr_burst_len[9:0]</obj_property>
@@ -110,10 +110,18 @@
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="ddr4_test_inst/mem_test_m0/wr_burst_req" type="logic">
+   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_req">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_req</obj_property>
       <obj_property name="ObjectShortName">wr_burst_req</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>

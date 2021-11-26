@@ -182,18 +182,25 @@ wire                             	c0_ddr4_s_axi_rvalid;
 wire                             	c0_ddr4_s_axi_rready;
 wire                                sys_clk_buf;
 
-(*mark_debug="true"*)wire wr_burst_data_req;
-(*mark_debug="true"*)wire wr_burst_finish;
-(*mark_debug="true"*)wire rd_burst_finish;
-(*mark_debug="true"*)wire rd_burst_req;
-(*mark_debug="true"*)wire wr_burst_req;
-(*mark_debug="true"*)wire[9:0] rd_burst_len;
-(*mark_debug="true"*)wire[9:0] wr_burst_len;
-(*mark_debug="true"*)wire[31:0] rd_burst_addr;
-(*mark_debug="true"*)wire[31:0] wr_burst_addr;
-(*mark_debug="true"*)wire rd_burst_data_valid;
-(*mark_debug="true"*)wire[63 : 0] rd_burst_data;
-(*mark_debug="true"*)wire[63 : 0] wr_burst_data;
+wire	RD_FIFO_WE, WR_FIFO_RE, RD_DONE, WR_DONE, RD_START, WR_START;
+wire [31:0] WR_LEN, RD_LEN, RD_ADRS, WR_ADRS;
+wire [63:0] RD_FIFO_DATA, WR_FIFO_DATA;
+
+
+
+
+// (*mark_debug="true"*)wire wr_burst_data_req;
+// (*mark_debug="true"*)wire wr_burst_finish;
+// (*mark_debug="true"*)wire rd_burst_finish;
+// (*mark_debug="true"*)wire rd_burst_req;
+// (*mark_debug="true"*)wire wr_burst_req;
+// (*mark_debug="true"*)wire[9:0] rd_burst_len;
+// (*mark_debug="true"*)wire[9:0] wr_burst_len;
+// (*mark_debug="true"*)wire[31:0] rd_burst_addr;
+// (*mark_debug="true"*)wire[31:0] wr_burst_addr;
+// (*mark_debug="true"*)wire rd_burst_data_valid;
+// (*mark_debug="true"*)wire[63 : 0] rd_burst_data;
+// (*mark_debug="true"*)wire[63 : 0] wr_burst_data;
 
 //(* MARK_DEBUG="true" *)wire [63 : 0]							   error_cnt;
 //(* MARK_DEBUG="true" *)wire							   c0_init_calib_complete;
@@ -226,31 +233,58 @@ wire                                sys_clk_buf;
 //  );
 
 
-mem_test
+// mem_test
+// #(
+// 	.MEM_DATA_BITS(64),
+// 	.ADDR_BITS(AXI_ADDR_WIDTH-3)
+// )
+// mem_test_m0
+// (
+// 	.rst						(~c0_ddr4_aresetn),                                 
+// 	.mem_clk					(c0_ddr4_clk),                             
+// 	.rd_burst_req				(rd_burst_req),               
+// 	.wr_burst_req				(wr_burst_req),               
+// 	.rd_burst_len				(rd_burst_len),               
+// 	.wr_burst_len				(wr_burst_len),               
+// 	.rd_burst_addr				(rd_burst_addr),        
+// 	.wr_burst_addr				(wr_burst_addr),        
+// 	.rd_burst_data_valid		(rd_burst_data_valid),  
+// 	.wr_burst_data_req			(wr_burst_data_req),  
+// 	.rd_burst_data				(rd_burst_data),  
+// 	.wr_burst_data				(wr_burst_data),    
+// 	.rd_burst_finish			(rd_burst_finish),   
+// 	.wr_burst_finish			(wr_burst_finish),
+
+// 	//.error_cnt						(error_cnt),
+// 	.error						(error)
+// ); 
+
+mem_new
 #(
 	.MEM_DATA_BITS(64),
-	.ADDR_BITS(AXI_ADDR_WIDTH-3)
+	.ADDR_BITS(32),
+	.LENGTH(32)
 )
-mem_test_m0
 (
-	.rst						(~c0_ddr4_aresetn),                                 
-	.mem_clk					(c0_ddr4_clk),                             
-	.rd_burst_req				(rd_burst_req),               
-	.wr_burst_req				(wr_burst_req),               
-	.rd_burst_len				(rd_burst_len),               
-	.wr_burst_len				(wr_burst_len),               
-	.rd_burst_addr				(rd_burst_addr),        
-	.wr_burst_addr				(wr_burst_addr),        
-	.rd_burst_data_valid		(rd_burst_data_valid),  
-	.wr_burst_data_req			(wr_burst_data_req),  
-	.rd_burst_data				(rd_burst_data),  
-	.wr_burst_data				(wr_burst_data),    
-	.rd_burst_finish			(rd_burst_finish),   
-	.wr_burst_finish			(wr_burst_finish),
+	.rst						(~c0_ddr4_aresetn),
+	.mem_clk					(c0_ddr4_clk),
+	.RD_FIFO_WE					(RD_FIFO_WE),
+	.WR_FIFO_RE					(WR_FIFO_RE),
+	.RD_DONE					(RD_DONE),
+	.WR_DONE					(WR_DONE),
+	.RD_START					(RD_START),
+	.WR_START					(WR_START),
+	.WR_LEN						(WR_LEN),
+	.RD_LEN						(RD_LEN),
+	.RD_ADRS					(RD_ADRS),
+	.RD_FIFO_DATA				(RD_FIFO_DATA),
+	.WR_FIFO_DATA				(WR_FIFO_DATA)
+);
 
-	//.error_cnt						(error_cnt),
-	.error						(error)
-); 
+
+
+
+
 aq_axi_master
 #(
 	.AXI_ADDR_WIDTH(AXI_ADDR_WIDTH)
@@ -305,25 +339,25 @@ u_aq_axi_master
 	
 	.MASTER_RST					(1'b0),
 	
-	.WR_START					(wr_burst_req),
-	.WR_ADRS					({wr_burst_addr[29:0],3'd0}),
-	.WR_LEN						({wr_burst_len,3'd0}), 
+	.WR_START					(WR_START),
+	.WR_ADRS					(WR_ADRS),
+	.WR_LEN						(WR_LEN), 
 	.WR_READY					(),
-	.WR_FIFO_RE					(wr_burst_data_req),
+	.WR_FIFO_RE					(WR_FIFO_RE),
 	.WR_FIFO_EMPTY				(1'b0),
 	.WR_FIFO_AEMPTY				(1'b0),
-	.WR_FIFO_DATA				(wr_burst_data),
-	.WR_DONE					(wr_burst_finish),
+	.WR_FIFO_DATA				(WR_FIFO_DATA),
+	.WR_DONE					(WR_DONE),
 	
-	.RD_START					(rd_burst_req),
-	.RD_ADRS					({rd_burst_addr[29:0],3'd0}),
-	.RD_LEN						({rd_burst_len,3'd0}), 
+	.RD_START					(RD_START),
+	.RD_ADRS					(RD_ADRS),
+	.RD_LEN						(RD_LEN), 
 	.RD_READY					(),
-	.RD_FIFO_WE					(rd_burst_data_valid),
+	.RD_FIFO_WE					(RD_FIFO_WE),
 	.RD_FIFO_FULL				(1'b0),
 	.RD_FIFO_AFULL				(1'b0),
-	.RD_FIFO_DATA				(rd_burst_data),
-	.RD_DONE					(rd_burst_finish),
+	.RD_FIFO_DATA				(RD_FIFO_DATA),
+	.RD_DONE					(RD_DONE),
 	.DEBUG()                                         
 );
 

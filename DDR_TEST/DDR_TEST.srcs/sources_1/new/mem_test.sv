@@ -95,7 +95,8 @@ ila_0 your_instance_name (
 	.probe9(wr_burst_data), // input wire [63:0]  probe9 
 	.probe10(rd_burst_finish), // input wire [0:0]  probe10 
 	.probe11(wr_burst_finish), // input wire [0:0]  probe11 
-	.probe12(error) // input wire [0:0]  probe12
+	.probe12(error), // input wire [0:0]  probe12
+	.probe13(state)
 );
 always@(posedge mem_clk or posedge rst)
 begin
