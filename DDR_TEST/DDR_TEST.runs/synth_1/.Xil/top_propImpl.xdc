@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc} rfile:../../../DDR_TEST.srcs/constrs_1/new/XDC.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc rfile:../../../DDR_TEST.srcs/constrs_1/new/XDC.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AG14 [get_ports {c0_ddr4_adr[0]}]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]

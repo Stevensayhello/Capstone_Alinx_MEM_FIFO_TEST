@@ -70,18 +70,18 @@ set rc [catch {
   create_project -in_memory -part xcku040-ffva1156-2-i
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.xpr} [current_project]
-  set_property ip_output_repo {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.cache/ip}} [current_project]
+  set_property webtalk.parent_dir E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.cache/wt [current_project]
+  set_property parent.project_path E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.xpr [current_project]
+  set_property ip_output_repo E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-  add_files -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/synth_1/top.dcp}}
-  read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_1.xci}}
-  read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ddr4_0.xci}}
-  read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci}}
-  read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_2.xci}}
-  read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_3.xci}}
-  read_xdc {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc}}
+  add_files -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/synth_1/top.dcp
+  read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_1.xci
+  read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ddr4_0.xci
+  read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci
+  read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_2.xci
+  read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_3.xci
+  read_xdc E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc
   link_design -top top -part xcku040-ffva1156-2-i
   write_hwdef -force -file top.hwdef
   close_msg_db -file init_design.pb

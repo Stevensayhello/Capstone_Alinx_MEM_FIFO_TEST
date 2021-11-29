@@ -25,58 +25,58 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.xpr} [current_project]
+set_property webtalk.parent_dir E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.cache/wt [current_project]
+set_property parent.project_path E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.cache/ip} [current_project]
+set_property ip_output_repo e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib -sv {
-  {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/axi_master.sv}
-  {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/fifo.sv}
-  {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv}
-  {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/Top.sv}
+  E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/axi_master.sv
+  E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/fifo.sv
+  E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/mem_new.sv
+  E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/new/Top.sv
 }
-read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_1.xci}}
-set_property used_in_synthesis false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_1_ooc.xdc}}]
+read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_1.xci
+set_property used_in_synthesis false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_v6_2/constraints/ila.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_1/ila_1_ooc.xdc]
 
-read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ddr4_0.xci}}
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ddr4_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/par/ddr4_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ip_0/ddr4_0_microblaze_mcs_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ip_0/ddr4_0_microblaze_mcs_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_0/bd_9054_microblaze_I_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_0/bd_9054_microblaze_I_0_ooc_debug.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_1/bd_9054_rst_0_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_1/bd_9054_rst_0_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_2/bd_9054_ilmb_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_3/bd_9054_dlmb_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_6/bd_9054_lmb_bram_I_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_9/bd_9054_second_lmb_bram_I_0_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_10/bd_9054_iomodule_0_0_board.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/bd_9054_ooc.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ip_1/par/ddr4_0_phy_ooc.xdc}}]
+read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ddr4_0.xci
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ddr4_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/par/ddr4_0.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ip_0/ddr4_0_microblaze_mcs_board.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ip_0/ddr4_0_microblaze_mcs_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_0/bd_9054_microblaze_I_0.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_0/bd_9054_microblaze_I_0_ooc_debug.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_1/bd_9054_rst_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_1/bd_9054_rst_0_0.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_2/bd_9054_ilmb_0.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_3/bd_9054_dlmb_0.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_6/bd_9054_lmb_bram_I_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_9/bd_9054_second_lmb_bram_I_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/ip/ip_10/bd_9054_iomodule_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/bd_0/bd_9054_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ddr4_0/ip_1/par/ddr4_0_phy_ooc.xdc]
 
-read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci}}
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0_clocks.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0_ooc.xdc}}]
+read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0_ooc.xdc]
 
-read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_2.xci}}
-set_property used_in_synthesis false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila_impl.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila_impl.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_2_ooc.xdc}}]
+read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_2.xci
+set_property used_in_synthesis false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_v6_2/constraints/ila.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_2/ila_2_ooc.xdc]
 
-read_ip -quiet {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_3.xci}}
-set_property used_in_synthesis false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila_impl.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila_impl.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_3_ooc.xdc}}]
+read_ip -quiet E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_3.xci
+set_property used_in_synthesis false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_v6_2/constraints/ila.xdc]
+set_property used_in_implementation false [get_files -all e:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_3_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -86,8 +86,8 @@ set_property used_in_implementation false [get_files -all {{c:/Users/Steven Su/D
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc}}]
+read_xdc E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc
+set_property used_in_implementation false [get_files E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/constrs_1/new/XDC.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

@@ -2,21 +2,39 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Thu Nov 25 21:03:15 2021
-# Process ID: 15672
-# Current directory: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent860 C:\Users\Steven Su\Desktop\Capstone_Alinx_MEM_FIFO_TEST\DDR_TEST\DDR_TEST.xpr
-# Log file: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/vivado.log
-# Journal file: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST\vivado.jou
+# Start of session at: Mon Nov 29 02:57:53 2021
+# Process ID: 5136
+# Current directory: E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3436 E:\Capstone_Alinx_MEM_FIFO_TEST\DDR_TEST\DDR_TEST.xpr
+# Log file: E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/vivado.log
+# Journal file: E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.xpr}
+open_project E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.xpr
 update_compile_order -fileset sources_1
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream -jobs 16
 wait_on_run impl_1
-set_property is_enabled true [get_files  {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_3.xci}}]
-set_property is_enabled false [get_files  {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_0/ila_0.xci}}]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 16
-wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+set_property PROBES.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/nolabel_line268/mem_new_test_scope"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/u_aq_axi_master/your_instance_name"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"fifo_test_inst/ila_fifo"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"fifo_test_inst/ila_fifo"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"fifo_test_inst/ila_fifo"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"fifo_test_inst/ila_fifo"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ddr4_test_inst/nolabel_line268/RD_ADRS} {ddr4_test_inst/nolabel_line268/RD_DONE} {ddr4_test_inst/nolabel_line268/RD_FIFO_DATA} {ddr4_test_inst/nolabel_line268/RD_LEN} {ddr4_test_inst/nolabel_line268/RD_START} {ddr4_test_inst/nolabel_line268/state} {ddr4_test_inst/nolabel_line268/WR_ADRS} {ddr4_test_inst/nolabel_line268/WR_DONE} {ddr4_test_inst/nolabel_line268/WR_FIFO_DATA} {ddr4_test_inst/nolabel_line268/WR_LEN} {ddr4_test_inst/nolabel_line268/WR_START} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/nolabel_line268/mem_new_test_scope"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/nolabel_line268/mem_new_test_scope"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/nolabel_line268/mem_new_test_scope"}]]

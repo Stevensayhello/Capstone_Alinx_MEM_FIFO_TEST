@@ -2,41 +2,98 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Thu Nov 25 21:03:15 2021
-# Process ID: 15672
-# Current directory: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent860 C:\Users\Steven Su\Desktop\Capstone_Alinx_MEM_FIFO_TEST\DDR_TEST\DDR_TEST.xpr
-# Log file: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/vivado.log
-# Journal file: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST\vivado.jou
+# Start of session at: Mon Nov 29 02:57:53 2021
+# Process ID: 5136
+# Current directory: E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3436 E:\Capstone_Alinx_MEM_FIFO_TEST\DDR_TEST\DDR_TEST.xpr
+# Log file: E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/vivado.log
+# Journal file: E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.xpr}
+open_project E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2018.3/data/ip'.
-open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 914.715 ; gain = 236.816
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 947.898 ; gain = 288.996
 update_compile_order -fileset sources_1
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream -jobs 16
-[Thu Nov 25 21:03:44 2021] Launched synth_1...
-Run output will be captured here: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/synth_1/runme.log
-[Thu Nov 25 21:03:45 2021] Launched impl_1...
-Run output will be captured here: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/runme.log
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-set_property is_enabled true [get_files  {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_3/ila_3.xci}}]
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-set_property is_enabled false [get_files  {{C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.srcs/sources_1/ip/ila_0/ila_0.xci}}]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 16
-[Thu Nov 25 21:08:24 2021] Launched synth_1...
-Run output will be captured here: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/synth_1/runme.log
-[Thu Nov 25 21:08:24 2021] Launched impl_1...
-Run output will be captured here: C:/Users/Steven Su/Desktop/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/runme.log
+[Mon Nov 29 02:58:55 2021] Launched synth_1...
+Run output will be captured here: E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/synth_1/runme.log
+[Mon Nov 29 02:58:55 2021] Launched impl_1...
+Run output will be captured here: E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+set_property PROBES.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+current_hw_device [get_hw_devices xcku040_0]
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 5 ILA core(s).
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 1 MIG core(s).
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ddr4_test_inst/u_aq_axi_master/your_instance_name' at location 'uuid_09C520CB831E5460B2AC3487AE9B139A' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'fifo_test_inst/ila_fifo' at location 'uuid_BB25F48696B55D8BA90DC1CBB011E4E2' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ddr4_test_inst/nolabel_line268/mem_new_test_scope' at location 'uuid_C5CCCF95F57D556CB1F0B9A957554FB1' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xcku040_0 and the probes file(s) E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.ltx.
+The device design has 5 ILA core(s) and 1 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property FULL_PROBES.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.ltx} [get_hw_devices xcku040_0]
+set_property PROGRAM.FILE {E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.runs/impl_1/top.bit} [get_hw_devices xcku040_0]
+program_hw_devices [get_hw_devices xcku040_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xcku040_0] 0]
+WARNING: [Labtools 27-3089] Calibration is still in-progress.
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+INFO: [Labtools 27-2302] Device xcku040 (JTAG device index = 0) is programmed with a design that has 1 MIG core(s).
+INFO: [Labtools 27-3143] Calibration status change detected, refreshing MIG_1
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/nolabel_line268/mem_new_test_scope"}]]
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/error was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/rd_burst_addr was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/rd_burst_data was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/rd_burst_data_valid was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/rd_burst_finish was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/rd_burst_len was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/rd_burst_req was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/wr_burst_addr was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/wr_burst_data was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/wr_burst_data_req was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/wr_burst_finish was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/wr_burst_len was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/wr_burst_req was not found in the design.
+WARNING: Simulation object ddr4_test_inst/mem_test_m0/state was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/u_aq_axi_master/your_instance_name"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"fifo_test_inst/ila_fifo"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"fifo_test_inst/ila_fifo"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_3' trigger was armed at 2021-Nov-29 03:37:08
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"fifo_test_inst/ila_fifo"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"fifo_test_inst/ila_fifo"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_3' triggered at 2021-Nov-29 03:37:08
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.hw/backup/hw_ila_data_3.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ddr4_test_inst/nolabel_line268/RD_ADRS} {ddr4_test_inst/nolabel_line268/RD_DONE} {ddr4_test_inst/nolabel_line268/RD_FIFO_DATA} {ddr4_test_inst/nolabel_line268/RD_LEN} {ddr4_test_inst/nolabel_line268/RD_START} {ddr4_test_inst/nolabel_line268/state} {ddr4_test_inst/nolabel_line268/WR_ADRS} {ddr4_test_inst/nolabel_line268/WR_DONE} {ddr4_test_inst/nolabel_line268/WR_FIFO_DATA} {ddr4_test_inst/nolabel_line268/WR_LEN} {ddr4_test_inst/nolabel_line268/WR_START} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/nolabel_line268/mem_new_test_scope"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Nov-29 03:37:19
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/nolabel_line268/mem_new_test_scope"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcku040_0] -filter {CELL_NAME=~"ddr4_test_inst/nolabel_line268/mem_new_test_scope"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Nov-29 03:37:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Nov 25 21:51:23 2021...
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 29 03:45:27 2021...

@@ -51,7 +51,7 @@ always @(posedge mem_clk or posedge rst) begin
 
             ENABLE_WRITE: begin
                 if(WR_ADRS == 32'hFFFFFFFF)
-                    state <= IDLE;
+                    WR_ADRS <= 32'h0;
 
                 WR_START        <= 1;
                 WR_FIFO_DATA    <= WR_FIFO_DATA + 64'd1;
@@ -66,7 +66,8 @@ always @(posedge mem_clk or posedge rst) begin
                     RD_ADRS     <= WR_ADRS;
                     state       <= WAIT_RD_DONE;
                 end
-                state <= WAIT_WR_DONE;
+                else
+                    state <= WAIT_WR_DONE;
             end
 
             WAIT_RD_DONE: begin
@@ -74,7 +75,8 @@ always @(posedge mem_clk or posedge rst) begin
                     RD_START    <= 0;
                     state       <= ENABLE_WRITE;
                 end
-                state <= WAIT_RD_DONE;
+                else
+                    state <= WAIT_RD_DONE;
             end
 
             default: state <= IDLE;

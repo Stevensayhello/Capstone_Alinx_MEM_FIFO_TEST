@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Thu Nov 25 21:18:58 2021
+| Date             : Mon Nov 29 03:08:08 2021
 | Host             : Stevensayhello-PC running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 2.059        |
+| Total On-Chip Power (W)  | 2.072        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.568        |
+| Dynamic (W)              | 1.580        |
 | Device Static (W)        | 0.491        |
 | Effective TJA (C/W)      | 1.4          |
 | Max Ambient (C)          | 97.1         |
@@ -52,23 +52,23 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.216 |       13 |       --- |             --- |
-| CLB Logic                |     0.059 |    53541 |       --- |             --- |
-|   LUT as Shift Register  |     0.025 |     1137 |    112800 |            1.01 |
-|   LUT as Logic           |     0.019 |    16948 |    242400 |            6.99 |
+| Clocks                   |     0.221 |       13 |       --- |             --- |
+| CLB Logic                |     0.062 |    53541 |       --- |             --- |
+|   LUT as Shift Register  |     0.027 |     1137 |    112800 |            1.01 |
+|   LUT as Logic           |     0.020 |    16905 |    242400 |            6.97 |
 |   LUT as Distributed RAM |     0.011 |      548 |    112800 |            0.49 |
 |   Register               |     0.003 |    26203 |    484800 |            5.40 |
 |   CARRY8                 |    <0.001 |      230 |     30300 |            0.76 |
 |   F7/F8 Muxes            |    <0.001 |      464 |    242400 |            0.19 |
 |   Others                 |    <0.001 |     2285 |       --- |             --- |
-| Signals                  |     0.050 |    60209 |       --- |             --- |
-| Block RAM                |     0.120 |    101.5 |       600 |           16.92 |
+| Signals                  |     0.054 |    60200 |       --- |             --- |
+| Block RAM                |     0.121 |    101.5 |       600 |           16.92 |
 | MMCM                     |     0.114 |        1 |        10 |           10.00 |
 | PLL                      |     0.229 |        3 |       --- |             --- |
 | DSPs                     |    <0.001 |        3 |      1920 |            0.16 |
 | I/O                      |     0.779 |      118 |       520 |           22.69 |
 | Static Power             |     0.491 |          |           |                 |
-| Total                    |     2.059 |          |           |                 |
+| Total                    |     2.072 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -78,7 +78,7 @@ Table of Contents
 +------------+-------------+-----------+-------------+------------+
 | Source     | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +------------+-------------+-----------+-------------+------------+
-| Vccint     |       0.950 |     0.632 |       0.475 |      0.157 |
+| Vccint     |       0.950 |     0.645 |       0.488 |      0.157 |
 | Vccaux     |       1.800 |     0.282 |       0.186 |      0.096 |
 | Vccaux_io  |       1.800 |     0.211 |       0.146 |      0.065 |
 | Vccint_io  |       0.950 |     0.430 |       0.414 |      0.016 |
@@ -265,23 +265,23 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| top                      |     1.568 |
+| top                      |     1.580 |
 |   IBUFDS_inst            |     0.004 |
 |   dbg_hub                |     0.003 |
 |     inst                 |     0.003 |
 |       BSCANID.u_xsdbm_id |     0.003 |
-|   ddr4_test_inst         |     1.533 |
-|     nolabel_line268      |     0.111 |
-|       mem_new_test_scope |     0.102 |
-|     u_aq_axi_master      |     0.051 |
-|       your_instance_name |     0.047 |
-|     your_instance_name   |     1.371 |
-|       inst               |     1.371 |
-|   fifo_test_inst         |     0.029 |
-|     fifo_ip_inst         |     0.005 |
-|       U0                 |     0.005 |
-|     ila_fifo             |     0.023 |
-|       inst               |     0.023 |
+|   ddr4_test_inst         |     1.546 |
+|     nolabel_line268      |     0.118 |
+|       mem_new_test_scope |     0.105 |
+|     u_aq_axi_master      |     0.053 |
+|       your_instance_name |     0.048 |
+|     your_instance_name   |     1.376 |
+|       inst               |     1.376 |
+|   fifo_test_inst         |     0.027 |
+|     fifo_ip_inst         |     0.004 |
+|       U0                 |     0.004 |
+|     ila_fifo             |     0.022 |
+|       inst               |     0.022 |
 +--------------------------+-----------+
 
 

@@ -3,124 +3,87 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="/media/psf/Home/Documents/Vivado_Project/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+      <db_ref path="E:/Capstone_Alinx_MEM_FIFO_TEST/DDR_TEST/DDR_TEST.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
          <top_modules>
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="1024001fs"></ZoomEndTime>
-      <Cursor1Time time="0fs"></Cursor1Time>
+      <ZoomStartTime time="28000fs"></ZoomStartTime>
+      <ZoomEndTime time="40281fs"></ZoomEndTime>
+      <Cursor1Time time="40000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="372"></NameColumnWidth>
-      <ValueColumnWidth column_width="167"></ValueColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="14" />
+   <WVObjectSize size="9" />
    <wave_markers>
    </wave_markers>
-   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/error">
+   <wvobject fp_name="ddr4_test_inst/nolabel_line268/WR_START" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/error</obj_property>
-      <obj_property name="ObjectShortName">error</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/nolabel_line268/WR_START</obj_property>
+      <obj_property name="ObjectShortName">WR_START</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_addr">
+   <wvobject fp_name="ddr4_test_inst/nolabel_line268/WR_ADRS" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_addr[23:0]</obj_property>
-      <obj_property name="ObjectShortName">rd_burst_addr[23:0]</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/nolabel_line268/WR_ADRS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_ADRS[31:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_data">
+   <wvobject fp_name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_data[63:0]</obj_property>
-      <obj_property name="ObjectShortName">rd_burst_data[63:0]</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_FIFO_DATA[63:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_data_valid">
+   <wvobject fp_name="ddr4_test_inst/nolabel_line268/WR_DONE" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_data_valid</obj_property>
-      <obj_property name="ObjectShortName">rd_burst_data_valid</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/nolabel_line268/WR_DONE</obj_property>
+      <obj_property name="ObjectShortName">WR_DONE</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_finish">
+   <wvobject fp_name="ddr4_test_inst/nolabel_line268/RD_START" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_finish</obj_property>
-      <obj_property name="ObjectShortName">rd_burst_finish</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/nolabel_line268/RD_START</obj_property>
+      <obj_property name="ObjectShortName">RD_START</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_len">
+   <wvobject fp_name="ddr4_test_inst/nolabel_line268/RD_ADRS" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_len[9:0]</obj_property>
-      <obj_property name="ObjectShortName">rd_burst_len[9:0]</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/nolabel_line268/RD_ADRS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_ADRS[31:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/rd_burst_req">
+   <wvobject fp_name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/rd_burst_req</obj_property>
-      <obj_property name="ObjectShortName">rd_burst_req</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_addr">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_addr[23:0]</obj_property>
-      <obj_property name="ObjectShortName">wr_burst_addr[23:0]</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[63:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_FIFO_DATA[63:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_data">
+   <wvobject fp_name="ddr4_test_inst/nolabel_line268/RD_DONE" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_data[63:0]</obj_property>
-      <obj_property name="ObjectShortName">wr_burst_data[63:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/nolabel_line268/RD_DONE</obj_property>
+      <obj_property name="ObjectShortName">RD_DONE</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_data_req">
+   <wvobject fp_name="ddr4_test_inst/nolabel_line268/state" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_data_req</obj_property>
-      <obj_property name="ObjectShortName">wr_burst_data_req</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_finish">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_finish</obj_property>
-      <obj_property name="ObjectShortName">wr_burst_finish</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_len">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_len[9:0]</obj_property>
-      <obj_property name="ObjectShortName">wr_burst_len[9:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="ddr4_test_inst/mem_test_m0/wr_burst_req">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/wr_burst_req</obj_property>
-      <obj_property name="ObjectShortName">wr_burst_req</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="ddr4_test_inst/mem_test_m0/state">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ddr4_test_inst/mem_test_m0/state[2:0]</obj_property>
-      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="ElementShortName">ddr4_test_inst/nolabel_line268/state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>

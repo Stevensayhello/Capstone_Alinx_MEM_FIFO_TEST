@@ -22,6 +22,10 @@
       <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
       <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
     </Object>
+    <Object name="ddr4_test_inst/nolabel_line268/mem_new_test_scope" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
     <Object name="ddr4_test_inst/u_aq_axi_master/your_instance_name" gui_info="">
       <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
       <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
@@ -61,7 +65,7 @@
         <net name="ddr4_test_inst/mem_test_m0/error"/>
       </nets>
     </probe>
-    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
         <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
@@ -105,7 +109,7 @@
         <net name="ddr4_test_inst/mem_test_m0/rd_burst_addr[0]"/>
       </nets>
     </probe>
-    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="CAPTURE_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
         <Option Id="COMPARE_VALUE.0" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
@@ -231,7 +235,7 @@
         <net name="ddr4_test_inst/mem_test_m0/rd_burst_finish"/>
       </nets>
     </probe>
-    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="CAPTURE_COMPARE_VALUE" value="eq10&apos;hXXX"/>
         <Option Id="COMPARE_VALUE.0" value="eq10&apos;hXXX"/>
@@ -282,7 +286,7 @@
         <net name="ddr4_test_inst/mem_test_m0/rd_burst_req"/>
       </nets>
     </probe>
-    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="CAPTURE_COMPARE_VALUE" value="eq3&apos;hX"/>
         <Option Id="COMPARE_VALUE.0" value="eq3&apos;hX"/>
@@ -308,7 +312,7 @@
         <net name="ddr4_test_inst/mem_test_m0/state[0]"/>
       </nets>
     </probe>
-    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
         <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
@@ -352,7 +356,7 @@
         <net name="ddr4_test_inst/mem_test_m0/wr_burst_addr[0]"/>
       </nets>
     </probe>
-    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="CAPTURE_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
         <Option Id="COMPARE_VALUE.0" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
@@ -478,7 +482,7 @@
         <net name="ddr4_test_inst/mem_test_m0/wr_burst_finish"/>
       </nets>
     </probe>
-    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="CAPTURE_COMPARE_VALUE" value="eq10&apos;hXXX"/>
         <Option Id="COMPARE_VALUE.0" value="eq10&apos;hXXX"/>
@@ -527,6 +531,494 @@
       </probeOptions>
       <nets>
         <net name="ddr4_test_inst/mem_test_m0/wr_burst_req"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe5[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[31]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[30]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[29]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[28]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[27]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[26]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[25]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[24]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[23]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[22]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[21]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[20]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[19]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[18]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[17]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[16]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[15]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[14]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[13]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[12]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[11]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[10]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[9]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[8]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[7]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[6]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[5]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[4]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[3]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[2]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[1]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_ADRS[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe10[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/RD_DONE"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe7[63:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[63]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[62]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[61]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[60]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[59]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[58]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[57]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[56]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[55]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[54]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[53]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[52]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[51]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[50]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[49]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[48]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[47]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[46]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[45]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[44]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[43]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[42]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[41]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[40]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[39]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[38]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[37]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[36]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[35]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[34]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[33]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[32]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[31]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[30]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[29]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[28]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[27]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[26]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[25]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[24]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[23]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[22]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[21]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[20]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[19]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[18]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[17]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[16]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[15]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[14]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[13]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[12]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[11]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[10]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[9]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[8]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[7]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[6]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[5]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[4]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[3]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[2]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[1]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_FIFO_DATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe6[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[31]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[30]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[29]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[28]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[27]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[26]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[25]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[24]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[23]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[22]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[21]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[20]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[19]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[18]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[17]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[16]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[15]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[14]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[13]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[12]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[11]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[10]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[9]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[8]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[7]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[6]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[5]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[4]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[3]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[2]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[1]"/>
+        <net name="ddr4_test_inst/nolabel_line268/RD_LEN[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe4[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/RD_START"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[31]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[30]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[29]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[28]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[27]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[26]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[25]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[24]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[23]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[22]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[21]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[20]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[19]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[18]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[17]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[16]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[15]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[14]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[13]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[12]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[11]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[10]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[9]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[8]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[7]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[6]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[5]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[4]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[3]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[2]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[1]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_ADRS[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe9[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/WR_DONE"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe3[63:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[63]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[62]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[61]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[60]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[59]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[58]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[57]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[56]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[55]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[54]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[53]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[52]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[51]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[50]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[49]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[48]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[47]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[46]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[45]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[44]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[43]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[42]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[41]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[40]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[39]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[38]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[37]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[36]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[35]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[34]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[33]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[32]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[31]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[30]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[29]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[28]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[27]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[26]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[25]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[24]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[23]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[22]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[21]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[20]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[19]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[18]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[17]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[16]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[15]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[14]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[13]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[12]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[11]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[10]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[9]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[8]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[7]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[6]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[5]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[4]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[3]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[2]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[1]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_FIFO_DATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe2[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[31]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[30]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[29]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[28]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[27]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[26]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[25]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[24]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[23]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[22]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[21]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[20]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[19]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[18]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[17]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[16]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[15]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[14]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[13]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[12]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[11]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[10]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[9]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[8]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[7]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[6]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[5]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[4]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[3]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[2]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[1]"/>
+        <net name="ddr4_test_inst/nolabel_line268/WR_LEN[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe0[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/WR_START"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq4&apos;hX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe8[3:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+        <Option Id="ENUM.ENABLE_WRITE" value="eq4&apos;b0001"/>
+        <Option Id="ENUM.IDLE" value="eq4&apos;b0000"/>
+        <Option Id="ENUM.WAIT_RD_DONE" value="eq4&apos;b0011"/>
+        <Option Id="ENUM.WAIT_WR_DONE" value="eq4&apos;b0010"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr4_test_inst/nolabel_line268/state[3]"/>
+        <net name="ddr4_test_inst/nolabel_line268/state[2]"/>
+        <net name="ddr4_test_inst/nolabel_line268/state[1]"/>
+        <net name="ddr4_test_inst/nolabel_line268/state[0]"/>
       </nets>
     </probe>
     <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
